@@ -1,0 +1,8 @@
+C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Infra.Data\bin\Debug\netcoreapp2.2\NAControle.Infra.Data.deps.json
+C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Infra.Data\bin\Debug\netcoreapp2.2\NAControle.Infra.Data.dll
+C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Infra.Data\obj\Debug\netcoreapp2.2\NAControle.Infra.Data.csprojAssemblyReference.cache
+C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Infra.Data\obj\Debug\netcoreapp2.2\NAControle.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Infra.Data\obj\Debug\netcoreapp2.2\NAControle.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Infra.Data\obj\Debug\netcoreapp2.2\NAControle.Infra.Data.AssemblyInfo.cs
+C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Infra.Data\bin\Debug\netcoreapp2.2\NAControle.Infra.Data.runtimeconfig.json
+C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Infra.Data\bin\Debug\netcoreapp2.2\NAControle.Infra.Data.runtimeconfig.dev.json
