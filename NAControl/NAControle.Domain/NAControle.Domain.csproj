@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="CommandHandlers\" />
     <Folder Include="Commands\Servidor\" />
     <Folder Include="Commands\Reuniao\" />
   </ItemGroup>

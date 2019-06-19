@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NAControle.Domain.Validations.Grupo;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
