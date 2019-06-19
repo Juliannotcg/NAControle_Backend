@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "FluentValidation/8.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
+      "MediatR/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1018,6 +1039,10 @@
       "NAControle.Domain.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "FluentValidation": "8.4.0",
+          "MediatR": "7.0.0"
+        },
         "compile": {
           "bin/placeholder/NAControle.Domain.Core.dll": {}
         },
@@ -1028,6 +1053,38 @@
     }
   },
   "libraries": {
+    "FluentValidation/8.4.0": {
+      "sha512": "/VApywgD2sqD3aB1tzub6SIItmwxXN0D5yAiP3kuFHmjYO1W+Ryi531/m4O03/hlfcYrBgewDJn7Jd1Xk0vTdw==",
+      "type": "package",
+      "path": "fluentvalidation/8.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.8.4.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
+    "MediatR/7.0.0": {
+      "sha512": "sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
+      "type": "package",
+      "path": "mediatr/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.7.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -3778,23 +3835,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Julianno\\.nuget\\packages\\": {},
+    "C:\\Users\\t088166146\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
+      "projectUniqueName": "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
       "projectName": "NAControle.Infra.Data",
-      "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
-      "packagesPath": "C:\\Users\\Julianno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\obj\\",
+      "projectPath": "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
+      "packagesPath": "C:\\Users\\t088166146\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Julianno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\t088166146\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3807,8 +3864,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj": {
-              "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj"
+            "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj": {
+              "projectPath": "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj"
             }
           }
         }
