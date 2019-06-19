@@ -9,3 +9,9 @@ C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Pr
 C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.AssemblyInfoInputs.cache
 C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.AssemblyInfo.cs
 C:\Users\t088166146\Documents\Control\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.csprojAssemblyReference.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.csproj.CoreCompileInputs.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.RazorAssemblyInfo.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.RazorAssemblyInfo.cs
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.AssemblyInfoInputs.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Presentation.Api\obj\Debug\netcoreapp2.2\NAControle.Presentation.Api.AssemblyInfo.cs

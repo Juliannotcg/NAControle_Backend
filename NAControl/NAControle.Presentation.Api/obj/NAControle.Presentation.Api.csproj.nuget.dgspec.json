@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\NAControle.Presentation.Api.csproj": {}
+    "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\NAControle.Presentation.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj": {
+    "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain.Core\\NAControle.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj",
-        "projectName": "NAControle.Infra.CrossCutting.IoC",
-        "projectPath": "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj",
-        "packagesPath": "C:\\Users\\t088166146\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\obj\\",
+        "projectUniqueName": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain.Core\\NAControle.Domain.Core.csproj",
+        "projectName": "NAControle.Domain.Core",
+        "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain.Core\\NAControle.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Julianno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\t088166146\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Julianno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,20 +56,20 @@
         }
       }
     },
-    "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\NAControle.Presentation.Api.csproj": {
+    "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\NAControle.Presentation.Api.csproj",
-        "projectName": "NAControle.Presentation.Api",
-        "projectPath": "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\NAControle.Presentation.Api.csproj",
-        "packagesPath": "C:\\Users\\t088166146\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\obj\\",
+        "projectUniqueName": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj",
+        "projectName": "NAControle.Domain",
+        "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj",
+        "packagesPath": "C:\\Users\\Julianno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\t088166146\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Julianno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,195 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj": {
-                "projectPath": "C:\\Users\\t088166146\\Documents\\Control\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj"
+              "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain.Core\\NAControle.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain.Core\\NAControle.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj",
+        "projectName": "NAControle.Infra.CrossCutting.IoC",
+        "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Julianno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Julianno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj": {
+                "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj"
+              },
+              "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
+        "projectName": "NAControle.Infra.Data",
+        "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Julianno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Julianno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj": {
+                "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\NAControle.Presentation.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\NAControle.Presentation.Api.csproj",
+        "projectName": "NAControle.Presentation.Api",
+        "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\NAControle.Presentation.Api.csproj",
+        "packagesPath": "C:\\Users\\Julianno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Presentation.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Julianno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.CrossCutting.IoC\\NAControle.Infra.CrossCutting.IoC.csproj"
               }
             }
           }

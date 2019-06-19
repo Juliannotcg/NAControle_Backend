@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NAControle.Domain\NAControle.Domain.csproj" />
+    <ProjectReference Include="..\NAControle.Infra.Data\NAControle.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.EntityFrameworkCore;
+using NAControle.Domain.Interfaces;
+using NAControle.Infra.Data.Contexts;
+using System;
+using System.Linq;
 
 namespace NAControle.Infra.Data.Repository
 {
@@ -9,7 +11,7 @@ namespace NAControle.Infra.Data.Repository
         protected readonly EntityContext Db;
         protected readonly DbSet<TEntity> DbSet;
 
-        public Repository(EquinoxContext context)
+        public Repository(EntityContext context)
         {
             Db = context;
             DbSet = Db.Set<TEntity>();

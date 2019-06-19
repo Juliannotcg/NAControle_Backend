@@ -1,0 +1,4 @@
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.AssemblyInfo.cs

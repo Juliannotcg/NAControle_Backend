@@ -2,6 +2,7 @@
 using NAControle.Domain.Models;
 using Microsoft.Extensions.Configuration;
 using System.IO;
+using NAControle.Infra.Data.Maps;
 
 namespace NAControle.Infra.Data.Contexts
 {
@@ -29,7 +30,7 @@ namespace NAControle.Infra.Data.Contexts
                .AddJsonFile("appsettings.json")
                .Build();
 
-            optionsBuilder.UseSqlServer(config.ConnectionString());
+            optionsBuilder.UseSqlServer(config.GetConnectionString("connectionString"));
         }
     }
 }

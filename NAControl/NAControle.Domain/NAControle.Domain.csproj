@@ -8,4 +8,11 @@
     <ProjectReference Include="..\NAControle.Domain.Core\NAControle.Domain.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CommandHandlers\" />
+    <Folder Include="Commands\Grupo\" />
+    <Folder Include="Commands\Servidor\" />
+    <Folder Include="Commands\Reuniao\" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using NAControle.Domain.Models;
+using NAControle.Infra.Data.Contexts;
 
 namespace NAControle.Infra.Data.Repository
 {

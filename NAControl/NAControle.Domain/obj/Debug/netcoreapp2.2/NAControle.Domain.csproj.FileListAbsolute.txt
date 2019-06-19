@@ -1,0 +1,4 @@
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.csprojAssemblyReference.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.AssemblyInfoInputs.cache
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.AssemblyInfo.cs
