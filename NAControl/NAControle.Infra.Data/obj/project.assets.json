@@ -3835,23 +3835,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\t088166146\\.nuget\\packages\\": {},
+    "C:\\Users\\Julianno\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
       "projectName": "NAControle.Infra.Data",
-      "projectPath": "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
-      "packagesPath": "C:\\Users\\t088166146\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\obj\\",
+      "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\NAControle.Infra.Data.csproj",
+      "packagesPath": "C:\\Users\\Julianno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\t088166146\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julianno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3864,8 +3864,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj": {
-              "projectPath": "C:\\Users\\t088166146\\Documents\\Projeto\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj"
+            "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj": {
+              "projectPath": "C:\\Users\\Julianno\\Documents\\NAControl\\NAControle_Backend\\NAControl\\NAControle.Domain\\NAControle.Domain.csproj"
             }
           }
         }

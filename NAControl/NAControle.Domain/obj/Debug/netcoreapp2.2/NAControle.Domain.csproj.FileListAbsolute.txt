@@ -1,4 +1,12 @@
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\bin\Debug\netcoreapp2.2\NAControle.Domain.deps.json
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\bin\Debug\netcoreapp2.2\NAControle.Domain.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\bin\Debug\netcoreapp2.2\NAControle.Domain.pdb
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\bin\Debug\netcoreapp2.2\NAControle.Domain.Core.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\bin\Debug\netcoreapp2.2\NAControle.Domain.Core.pdb
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.csprojAssemblyReference.cache
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.AssemblyInfoInputs.cache
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.AssemblyInfo.cs
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.csproj.CopyComplete
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Domain\obj\Debug\netcoreapp2.2\NAControle.Domain.pdb

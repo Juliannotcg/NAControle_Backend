@@ -7,10 +7,12 @@ namespace NAControle.Domain.Models
         public Endereco(string logradouro,
             int lote,
             int rua,
-            int quadra, 
-            int cep, 
-            string cidade, 
-            string uf)
+            int quadra,
+            int cep,
+            string cidade,
+            string uf, 
+            string latitude, 
+            string longitude)
         {
             Logradouro = logradouro;
             Lote = lote;
@@ -19,6 +21,8 @@ namespace NAControle.Domain.Models
             Cep = cep;
             Cidade = cidade;
             Uf = uf;
+            Latitude = latitude;
+            Longitude = longitude;
         }
 
         public string Logradouro { get; private set; }
@@ -28,5 +32,7 @@ namespace NAControle.Domain.Models
         public int Cep { get; private set; }
         public string Cidade { get; private set; }
         public string Uf { get; private set; }
+        public string Latitude { get; set; }
+        public string Longitude { get; set; }
     }
 }

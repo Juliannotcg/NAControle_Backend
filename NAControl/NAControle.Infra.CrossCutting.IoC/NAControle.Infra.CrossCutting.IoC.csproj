@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NAControle.Domain.Core\NAControle.Domain.Core.csproj" />
     <ProjectReference Include="..\NAControle.Domain\NAControle.Domain.csproj" />
     <ProjectReference Include="..\NAControle.Infra.Data\NAControle.Infra.Data.csproj" />
   </ItemGroup>

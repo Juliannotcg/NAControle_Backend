@@ -1,4 +1,16 @@
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.deps.json
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.pdb
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Domain.Core.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Domain.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Infra.Data.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Domain.Core.pdb
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Domain.pdb
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\NAControle.Infra.Data.pdb
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.csproj.CopyComplete
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.pdb

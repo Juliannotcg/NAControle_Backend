@@ -33,9 +33,17 @@ namespace NAControle.Infra.Data.Maps
                    .IsRequired()
                    .HasColumnType("VARCHAR(100)");
 
-            builder.Property(c => c.Cidade)
+            builder.Property(c => c.Cep)
                    .IsRequired()
-                   .HasColumnType("VARCHAR(50)");
+                   .HasColumnType("INT");
+
+            builder.Property(c => c.Latitude)
+                  .IsRequired()
+                  .HasColumnType("VARCHAR(30)");
+
+            builder.Property(c => c.Longitude)
+                  .IsRequired()
+                  .HasColumnType("VARCHAR(30)");
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
+using AutoMapper;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,19 @@ using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using NAControle.Presentation.Api.Configurations;
+using System;
+using AutoMapper;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using MediatR;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Formatters;
 
 namespace NAControle.Presentation.Api
 {
@@ -26,6 +40,9 @@ namespace NAControle.Presentation.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Options para configurações customizadas
+            services.AddOptions();
+
             services.AddSwaggerGen(s =>
             {
                 s.SwaggerDoc("v1", new Info
@@ -38,7 +55,14 @@ namespace NAControle.Presentation.Api
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            RegisterServices(services);
+
+            //services.AddAutoMapper(); 
+
+            ////// MediatR
+            //services.AddMediatR(typeof(Startup));
+            
+            // Registrar todos os DI
+            services.AddDIConfiguration();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

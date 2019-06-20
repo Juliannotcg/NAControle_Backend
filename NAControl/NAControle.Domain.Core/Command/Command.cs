@@ -1,12 +1,12 @@
 ﻿using FluentValidation.Results;
-using NAControle.Domain.Core.Events;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace NAControle.Domain.Core.Command
 {
-    public abstract class Command : Message
+    public abstract class Command : IRequest<bool>, INotification
     {
         public ValidationResult ValidationResult { get; set; }
 

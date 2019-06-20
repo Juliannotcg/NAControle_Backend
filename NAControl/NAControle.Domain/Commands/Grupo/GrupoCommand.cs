@@ -8,5 +8,7 @@ namespace NAControle.Domain.Commands.Grupo
     public abstract class GrupoCommand : Command
     {
         public string Nome { get; set; }
+   
+
     }
 }
