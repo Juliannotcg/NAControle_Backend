@@ -5,9 +5,9 @@ namespace NAControle.Domain.Models
 {
     public class Reuniao : ModelBase
     {
-        public Reuniao(DateTime dia, 
-            TimeSpan horaInicio, 
-            TimeSpan horaFim, 
+        public Reuniao(DateTime dia,
+            DateTime horaInicio, 
+            DateTime horaFim, 
             bool aberta, 
             bool ativa,
             Servidor secretario)
@@ -20,9 +20,14 @@ namespace NAControle.Domain.Models
             Secretario = secretario;
         }
 
+        public Reuniao()
+        {
+        }
         public DateTime Dia { get; private set; }
-        public TimeSpan HoraInicio { get; private set; }
-        public TimeSpan HoraFim { get; private set; }
+
+        //Validar como o Entity vai tratar TimeSpan
+        public DateTime HoraInicio { get; private set; }
+        public DateTime HoraFim { get; private set; }
         public bool Aberta { get; private set; }
         public bool Ativa { get; private set; }
         public Servidor Secretario { get; private set; }

@@ -24,6 +24,9 @@ namespace NAControle.Domain.Models
             Latitude = latitude;
             Longitude = longitude;
         }
+        public Endereco()
+        {
+        }
 
         public string Logradouro { get; private set; }
         public int Lote { get; private set; }
@@ -32,7 +35,7 @@ namespace NAControle.Domain.Models
         public int Cep { get; private set; }
         public string Cidade { get; private set; }
         public string Uf { get; private set; }
-        public string Latitude { get; set; }
-        public string Longitude { get; set; }
+        public string Latitude { get; private set; }
+        public string Longitude { get; private set; }
     }
 }

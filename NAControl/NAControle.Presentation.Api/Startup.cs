@@ -1,30 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using AutoMapper;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Swashbuckle.AspNetCore.Swagger;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using NAControle.Presentation.Api.Configurations;
-using System;
-using AutoMapper;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
+﻿using AutoMapper;
 using MediatR;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using NAControle.Presentation.Api.Configurations;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace NAControle.Presentation.Api
 {
@@ -55,11 +37,8 @@ namespace NAControle.Presentation.Api
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-
-            //services.AddAutoMapper(); 
-
-            ////// MediatR
-            //services.AddMediatR(typeof(Startup));
+            services.AddAutoMapper(); 
+            services.AddMediatR(typeof(Startup));
             
             // Registrar todos os DI
             services.AddDIConfiguration();

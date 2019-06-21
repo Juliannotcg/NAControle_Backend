@@ -16,6 +16,9 @@ namespace NAControle.Domain.Models
             Reuniao = reuniao;
         }
 
+        public Grupo()
+        {
+        }
         public string Nome { get; private set; }
         public Endereco Endereco { get; private set; }
         public ICollection<Servidor> Servidor { get; private set; }

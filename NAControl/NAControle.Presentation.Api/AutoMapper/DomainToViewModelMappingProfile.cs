@@ -1,8 +1,6 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using NAControle.Domain.Models;
+using NAControle.Presentation.Api.ViewModel;
 
 namespace NAControle.Presentation.Api.AutoMapper
 {
@@ -10,10 +8,10 @@ namespace NAControle.Presentation.Api.AutoMapper
     {
         public DomainToViewModelMappingProfile()
         {
-            //CreateMap<Evento, EventoViewModel>();
-            //CreateMap<Endereco, EnderecoViewModel>();
-            //CreateMap<Categoria, CategoriaViewModel>();
-            //CreateMap<Organizador, OrganizadorViewModel>();
+            CreateMap<Grupo, GrupoViewModel>();
+            CreateMap<Endereco, EnderecoViewModel>();
+            CreateMap<Servidor, ServidorViewModel>();
+            CreateMap<Reuniao, ReuniaoViewModel>();
         }
     }
 }

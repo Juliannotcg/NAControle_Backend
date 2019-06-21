@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "98240cec95de9728be60c10858286103cf676a5a"
+    "signature": "a11a1f37d89cc0117e29dc962975d2e7870e42a9"
   },
   "compilationOptions": {},
   "targets": {
@@ -29,11 +29,11 @@
           }
         }
       },
-      "MediatR/7.0.0": {
+      "MediatR/4.1.0": {
         "runtime": {
           "lib/netstandard2.0/MediatR.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.0"
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
           }
         }
       },
@@ -611,7 +611,7 @@
       "NAControle.Domain.Core/1.0.0": {
         "dependencies": {
           "FluentValidation": "8.4.0",
-          "MediatR": "7.0.0"
+          "MediatR": "4.1.0"
         },
         "runtime": {
           "NAControle.Domain.Core.dll": {}
@@ -632,12 +632,12 @@
       "path": "fluentvalidation/8.4.0",
       "hashPath": "fluentvalidation.8.4.0.nupkg.sha512"
     },
-    "MediatR/7.0.0": {
+    "MediatR/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
-      "path": "mediatr/7.0.0",
-      "hashPath": "mediatr.7.0.0.nupkg.sha512"
+      "sha512": "sha512-xpResbmpvPjlZOApIyUgrhGksGYVTuxb3bYP0LolmlpCcXrkujuTTFm6NyCFN8MZkYDgsPpn4QWdxWLBMxoVYA==",
+      "path": "mediatr/4.1.0",
+      "hashPath": "mediatr.4.1.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

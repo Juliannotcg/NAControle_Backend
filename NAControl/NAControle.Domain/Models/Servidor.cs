@@ -18,6 +18,9 @@ namespace NAControle.Domain.Models
             Email = email;
             Endereco = endereco;
         }
+        public Servidor()
+        {
+        }
 
         public string Nome { get; private set; }
         public string SobreNome { get; private set; }
