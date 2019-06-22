@@ -2,6 +2,7 @@
 using NAControle.Domain.Commands.Grupo;
 using NAControle.Domain.Handlers;
 using NAControle.Domain.Interfaces;
+using NAControle.Domain.Models;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -26,7 +27,17 @@ namespace NAControle.Domain.CommandHandlers
 
         public Task Handle(RegisterNewGrupoCommand request, CancellationToken cancellationToken)
         {
-            _mediator.SendCommand(request);
+            var endereco = new Endereco(request.Endereco.Logradouro, request.Endereco.Lote, request.Endereco.Rua,
+                request.Endereco.Quadra, request.Endereco.Cep, request.Endereco.Cidade, request.Endereco.Uf,
+                request.Endereco.Latitude, request.Endereco.Longitude);
+
+            var grupo = new Grupo(request.Nome, endereco);
+
+            _grupoRepository.Add(grupo);
+
+            if (Commit())
+            {
+            }
 
             return Task.CompletedTask;
         }

@@ -12,7 +12,7 @@ namespace NAControle.Domain.Models
             Endereco = endereco;
         }
 
-        public Grupo()
+        private Grupo()
         {
         }
         public string Nome { get; private set; }
