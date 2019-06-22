@@ -14,3 +14,5 @@ C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.In
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.csproj.CopyComplete
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.dll
 C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.2\NAControle.Infra.CrossCutting.IoC.pdb
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.dll
+C:\Users\Julianno\Documents\NAControl\NAControle_Backend\NAControl\NAControle.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.xml

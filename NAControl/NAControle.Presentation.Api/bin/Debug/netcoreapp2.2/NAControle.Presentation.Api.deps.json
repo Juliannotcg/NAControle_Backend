@@ -638,7 +638,8 @@
         "dependencies": {
           "NAControle.Domain": "1.0.0",
           "NAControle.Domain.Core": "1.0.0",
-          "NAControle.Infra.Data": "1.0.0"
+          "NAControle.Infra.Data": "1.0.0",
+          "AutoMapper": "8.1.1"
         },
         "runtime": {
           "NAControle.Infra.CrossCutting.IoC.dll": {}

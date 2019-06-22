@@ -7,11 +7,6 @@ namespace NAControle.Presentation.Api.ViewModel
 {
     public class EnderecoViewModel
     {
-        public EnderecoViewModel()
-        {
-            Id = Guid.NewGuid();
-        }
-        public Guid Id { get; set; }
         public string Logradouro { get; set; }
         public int Lote { get; set; }
         public int Rua { get; set; }

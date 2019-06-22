@@ -1,28 +1,44 @@
 ﻿using MediatR;
 using NAControle.Domain.Commands.Grupo;
+using NAControle.Domain.Handlers;
+using NAControle.Domain.Interfaces;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace NAControle.Domain.CommandHandlers
 {
-    public class GrupoCommandHandler :
-        IRequestHandler<RegisterNewGrupoCommand, bool>,
-        IRequestHandler<UpdateGrupoCommand, bool>,
-        IRequestHandler<RemoveGrupoCommand, bool>
+    public class GrupoCommandHandler : CommandHandler,
+        IRequestHandler<RegisterNewGrupoCommand>,
+        IRequestHandler<UpdateGrupoCommand>,
+        IRequestHandler<RemoveGrupoCommand>
     {
-        public Task<bool> Handle(RegisterNewGrupoCommand request, CancellationToken cancellationToken)
+        private readonly IMediatorHandler _mediator;
+        private readonly IGrupoRepository _grupoRepository;
+
+        public GrupoCommandHandler(
+         IUnitOfWork uow,
+         IGrupoRepository grupoRepository,
+         IMediatorHandler mediator) : base(uow)
         {
-            return Task.FromResult(true);
+            _grupoRepository = grupoRepository;
+            _mediator = mediator;
         }
 
-        public Task<bool> Handle(UpdateGrupoCommand request, CancellationToken cancellationToken)
+        public Task Handle(RegisterNewGrupoCommand request, CancellationToken cancellationToken)
         {
-            return Task.FromResult(true);
+            _mediator.SendCommand(request);
+
+            return Task.CompletedTask;
         }
 
-        public Task<bool> Handle(RemoveGrupoCommand request, CancellationToken cancellationToken)
+        public Task Handle(UpdateGrupoCommand request, CancellationToken cancellationToken)
         {
-            return Task.FromResult(true);
+            throw new System.NotImplementedException();
+        }
+
+        public Task Handle(RemoveGrupoCommand request, CancellationToken cancellationToken)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

@@ -6,14 +6,10 @@ namespace NAControle.Domain.Models
     public class Grupo : ModelBase
     {
         public Grupo(string nome,
-            Endereco endereco,
-            ICollection<Servidor> servidor,
-            ICollection<Reuniao> reuniao)
+            Endereco endereco)
         {
             Nome = nome;
             Endereco = endereco;
-            Servidor = servidor;
-            Reuniao = reuniao;
         }
 
         public Grupo()
@@ -21,7 +17,5 @@ namespace NAControle.Domain.Models
         }
         public string Nome { get; private set; }
         public Endereco Endereco { get; private set; }
-        public ICollection<Servidor> Servidor { get; private set; }
-        public ICollection<Reuniao> Reuniao { get; private set; }
     }
 }

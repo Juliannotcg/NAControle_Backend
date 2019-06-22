@@ -6,7 +6,7 @@ using System.Text;
 
 namespace NAControle.Domain.Core.Command
 {
-    public abstract class Command : IRequest<bool>, INotification
+    public abstract class Command : IRequest
     {
         public ValidationResult ValidationResult { get; set; }
 

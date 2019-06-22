@@ -8,10 +8,4 @@
     <ProjectReference Include="..\NAControle.Domain.Core\NAControle.Domain.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Commands\Endereco\" />
-    <Folder Include="Commands\Servidor\" />
-    <Folder Include="Commands\Reuniao\" />
-  </ItemGroup>
-
 </Project>

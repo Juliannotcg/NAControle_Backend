@@ -10,15 +10,11 @@ namespace NAControle.Infra.Data.Contexts
     {
         public DbSet<Endereco> Endereco { get; set; }
         public DbSet<Grupo> Grupo { get; set; }
-        public DbSet<Reuniao> Reuniao { get; set; }
-        public DbSet<Servidor> Servidor { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new EnderecoMap());
             modelBuilder.ApplyConfiguration(new GrupoMap());
-            modelBuilder.ApplyConfiguration(new ReuniaoMap());
-            modelBuilder.ApplyConfiguration(new ServidorMap());
 
             base.OnModelCreating(modelBuilder);
         }

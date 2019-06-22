@@ -51,7 +51,7 @@ namespace NAControle.Presentation.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(s => { s.SwaggerEndpoint("/swagger/v1/swagger.json", "API Pessoas Juridicas API v1.0"); });
+                app.UseSwaggerUI(s => { s.SwaggerEndpoint("/swagger/v1/swagger.json", "API de gerenciamento de grupos API v1.0"); });
             }
             else
             {

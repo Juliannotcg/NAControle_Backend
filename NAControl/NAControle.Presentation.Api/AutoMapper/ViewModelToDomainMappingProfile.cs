@@ -1,10 +1,7 @@
 ﻿using AutoMapper;
+using NAControle.Domain.Commands.Endereco;
 using NAControle.Domain.Commands.Grupo;
 using NAControle.Presentation.Api.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NAControle.Presentation.Api.AutoMapper
 {
@@ -13,8 +10,13 @@ namespace NAControle.Presentation.Api.AutoMapper
         public ViewModelToDomainMappingProfile()
         {
             CreateMap<GrupoViewModel, RegisterNewGrupoCommand>()
-                .ConstructUsing(c => new RegisterNewGrupoCommand());
-
+                .ConstructUsing(c => 
+                new RegisterNewGrupoCommand(
+                    c.Nome, 
+                    new EnderecoCommand(c.EnderecoViewModel.Logradouro, c.EnderecoViewModel.Lote,
+                    c.EnderecoViewModel.Rua, c.EnderecoViewModel.Quadra, c.EnderecoViewModel.Cep,
+                    c.EnderecoViewModel.Cidade, c.EnderecoViewModel.Uf, c.EnderecoViewModel.Latitude,
+                    c.EnderecoViewModel.Longitude)));
         }
     }
 }
