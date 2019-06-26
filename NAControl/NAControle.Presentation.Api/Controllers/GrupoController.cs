@@ -34,7 +34,7 @@ namespace NAControle.Presentation.Api.Controllers
         [Route("grupos")]
         public IEnumerable<GrupoViewModel> Get()
         {
-            return _mapper.Map<IEnumerable<GrupoViewModel>>(_grupoRepository.GetAll());
+            return _mapper.Map<IEnumerable<GrupoViewModel>>(_grupoRepository.GetTodosGrupos());
         }
 
         [HttpGet]

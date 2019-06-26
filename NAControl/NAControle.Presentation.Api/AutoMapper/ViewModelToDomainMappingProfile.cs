@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using NAControle.Domain.Commands.Endereco;
 using NAControle.Domain.Commands.Grupo;
+using NAControle.Domain.Models;
 using NAControle.Presentation.Api.ViewModel;
 
 namespace NAControle.Presentation.Api.AutoMapper
@@ -17,6 +18,12 @@ namespace NAControle.Presentation.Api.AutoMapper
                     c.EnderecoViewModel.Rua, c.EnderecoViewModel.Quadra, c.EnderecoViewModel.Cep,
                     c.EnderecoViewModel.Cidade, c.EnderecoViewModel.Uf, c.EnderecoViewModel.Latitude,
                     c.EnderecoViewModel.Longitude)));
+
+            CreateMap<GrupoViewModel, EnderecoViewModel>();
+
+            CreateMap<Grupo, GrupoViewModel>()
+                 .ForMember(dest => dest.EnderecoViewModel, opt => opt.MapFrom(src => src.Endereco));
+
         }
     }
 }

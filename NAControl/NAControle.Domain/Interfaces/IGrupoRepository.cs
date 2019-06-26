@@ -7,5 +7,6 @@ namespace NAControle.Domain.Interfaces
 {
     public interface IGrupoRepository: IRepository<Grupo>
     {
+        List<Grupo> GetTodosGrupos();
     }
 }

@@ -2,6 +2,7 @@
 using NAControle.Domain.Interfaces;
 using NAControle.Infra.Data.Contexts;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace NAControle.Infra.Data.Repository
@@ -27,11 +28,6 @@ namespace NAControle.Infra.Data.Repository
             return DbSet.Find(id);
         }
 
-        public virtual IQueryable<TEntity> GetAll()
-        {
-            return DbSet;
-        }
-
         public virtual void Update(TEntity obj)
         {
             DbSet.Update(obj);
@@ -51,6 +47,11 @@ namespace NAControle.Infra.Data.Repository
         {
             Db.Dispose();
             GC.SuppressFinalize(this);
+        }
+
+        public virtual IEnumerable<TEntity> GetAll()
+        {
+            return DbSet.ToList();
         }
     }
 }

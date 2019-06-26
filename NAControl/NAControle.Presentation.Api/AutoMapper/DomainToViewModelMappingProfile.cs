@@ -13,6 +13,8 @@ namespace NAControle.Presentation.Api.AutoMapper
             CreateMap<Endereco, EnderecoViewModel>();
 
             CreateMap<GrupoViewModel, GrupoCommand>();
+
+            CreateMap<GrupoViewModel, Grupo>();
         }
     }
 }
